@@ -2,7 +2,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import {useRouter} from "next/router";
 import Link from "next/link";
-import Image from '../../../../assets/something.jpg'
+import Something from '../../../../assets/something.jpg'
+import Image from 'next/image'
 
 const Setting = () => {
 
@@ -23,7 +24,7 @@ const Setting = () => {
             <img src="/images/something.jpg"/>
 
 
-            <img src={Image}/>
+            <Image src={Something} alt="Picture of the author" />
             <Link href="/login">Login by Link component</Link>
 
         </div>
