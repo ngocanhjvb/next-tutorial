@@ -12,7 +12,7 @@ const NavbarMenu = () => (
             <Link href='/posts' passHref>
                 <Nav.Link>Posts</Nav.Link>
             </Link>
-            <Link href='/jokes/random' passHref>
+            <Link href='/jokes' passHref>
                 <Nav.Link>Jokes</Nav.Link>
             </Link>
             <Link href='/books' passHref>
